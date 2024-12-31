@@ -1,0 +1,79 @@
+/* Resetando as configurações padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DDA0DD; /* Cor de fundo clara */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10px; /* Adicionando margem nas laterais */
+}
+
+.container {
+    background-color: #D8BFD8; /* Cor de fundo da área principal */
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    text-align: center;
+}
+
+.profile {
+    margin-bottom: 30px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.link-btn {
+    display: block;
+    padding: 15px;
+    background-color: #9400D3; /* Cor de fundo dos botões */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+    text-align: center;
+}
+
+.link-btn:hover {
+    background-color: #9932CC; /* Cor de fundo no hover */
+    transform: scale(1.05); /* Efeito de aumento no botão */
+}
+
+.link-btn:active {
+    background-color: #8B008B; /* Cor ao pressionar o botão */
+    transform: scale(1); /* Retorno ao tamanho normal */
+}

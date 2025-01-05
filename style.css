@@ -69,11 +69,11 @@ p {
 }
 
 .link-btn:hover {
-    background-color: #9932CC; /* Cor de fundo no hover */
+    background-color: #808b96; /* Cor de fundo no hover */
     transform: scale(1.05); /* Efeito de aumento no botão */
 }
 
 .link-btn:active {
-    background-color: #8B008B; /* Cor ao pressionar o botão */
+    background-color: #5d6d7e; /* Cor ao pressionar o botão */
     transform: scale(1); /* Retorno ao tamanho normal */
 }

@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #DDA0DD; /* Cor de fundo clara */
+    background-color: #abb2b9; /* Cor de fundo clara */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    background-color: #D8BFD8; /* Cor de fundo da área principal */
+    background-color: #d5d8dc; /* Cor de fundo da área principal */
     border-radius: 15px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
     width: 100%;
@@ -58,7 +58,7 @@ p {
 .link-btn {
     display: block;
     padding: 15px;
-    background-color: #9400D3; /* Cor de fundo dos botões */
+    background-color: #566573; /* Cor de fundo dos botões */
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
